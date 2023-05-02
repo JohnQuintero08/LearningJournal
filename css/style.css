@@ -1,0 +1,104 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+/* ----------------
+    CONTENEDORES
+------------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 01em;
+}
+
+header ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}
+
+.head-main-section{
+    background-image: url(https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    height: 300px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+.grid-container{
+    padding: 2.5em 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 2em;
+}
+
+.more-content{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+footer{
+    background-color: #202020;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+/* ------------
+    IMAGENES
+--------------- */
+i{
+    font-size: 2.5rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ------------
+    TEXTO
+--------------- */
+header li{
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+h5,
+h1,
+p{
+    margin: 0;
+}
+
+.copyright{
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.more-content-btn{
+    border: none;
+    background: none;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-size: 1.35rem;
+    font-weight: bolder;
+}
+
+
